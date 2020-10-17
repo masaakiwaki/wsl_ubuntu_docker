@@ -7,4 +7,5 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get -y update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 apt-cache madison docker-ce
+sudo gpasswd -a setup docker
 sudo service docker start
